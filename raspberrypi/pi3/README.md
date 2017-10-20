@@ -3,7 +3,7 @@ Here are the configuration values used for Raspberry Pi 3 devices.
 # Initial setup
 We're using Raspbian as a base, the current shipping version from https://www.raspberrypi.org/downloads/raspbian/ Raspbian Stretch Lite (2017-09-07)
 
-These are currently configured by hand:
+These are currently configured by hand ([Useful Documentation](https://github.com/keiraqz/RaspPiDemo/tree/master/kafka_config)):
 
 `sudo raspi-config`
 

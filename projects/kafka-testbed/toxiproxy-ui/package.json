@@ -1,0 +1,18 @@
+{
+  "name": "toxiproxy-commercetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "ip": "^1.1.5",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "toxiproxy-node-client": "^2.0.6"
+  }
+}

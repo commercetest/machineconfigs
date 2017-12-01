@@ -14,6 +14,13 @@ These are currently configured by hand ([Useful Documentation](https://github.co
 * Filesystem expanded to the entire SD-card (16GB or 32GB)
 * Update this program
 
+### Install common foundations
+
+* VIM, Java Runtime
+`sudo apt-get install vim default-jre -y`
+* Optionally: install the JDK so we can use monitoring tools such as `jps` to show the running Java processes.
+`sudo apt-get install default-jdk -y`
+
 ### Kafka setup on Pis
 
 * ZooKeeper/Producer Pi (e.g. commercetest-0)
@@ -34,8 +41,6 @@ These are currently configured by hand ([Useful Documentation](https://github.co
     ```bash
     /usr/local/kafka/bin/kafka-console-consumer.sh --zookeeper cleanroom-0:2181 --topic test
     ```
-
-
 ## Final working setup
 * 4 Pis
  * commercetest-0 (Zookeeper & Producer script)
